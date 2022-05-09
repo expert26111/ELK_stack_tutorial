@@ -1,0 +1,33 @@
+# Steps I performed to learn about the ELK stack
+
+For first I have followed this tutorial:
+[(https://www.youtube.com/watch?v=gS_nHTWZEJ8&ab_channel=OfficialElasticCommunity)]
+
+After extracting the elastic search zip file , I cd into it, cd into bin and run the command elasticsearch.bat but I got an error , so I followed advice from this link [(https://opster.com/analysis/elasticsearch-authentication-of-was-terminated-by-realm/#:~:text=What%20this%20error%20means,i.e.%20until%20authentication%20is%20successful.)]
+
+My password for elastic username is 260790. Of course ElasticSearch becomes accessible at http://localhost:9200/
+Gave me this output:
+{
+  "name" : "DESKTOP-44AB1GU",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "j2t0eTnMTC6qXGZIVMXtRg",
+  "version" : {
+    "number" : "8.2.0",
+    "build_flavor" : "default",
+    "build_type" : "zip",
+    "build_hash" : "b174af62e8dd9f4ac4d25875e9381ffe2b9282c5",
+    "build_date" : "2022-04-20T10:35:10.180408517Z",
+    "build_snapshot" : false,
+    "lucene_version" : "9.1.0",
+    "minimum_wire_compatibility_version" : "7.17.0",
+    "minimum_index_compatibility_version" : "7.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+
+I have installed on my computer elasticsearch in the form of zip file.
+Unzip it in the same file.
+
+
+## Installing Kibana
+
